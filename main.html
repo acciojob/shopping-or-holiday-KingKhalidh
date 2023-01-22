@@ -11,15 +11,15 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<ol>
-		<li data-shoppingList-type="iphne">iphone 13</li>
-        <li data-shoppingList-type="clothes">pant and shirt</li>
-        <li data-shoppingList-type="laptop">hp</li>
+		<li onclick="showDetails(this)" id="iphone 13" data-shoppingList-type="phone">iphone 13</li>
+        <li onclick="showDetails(this)" id="pant and shirt" data-shoppingList-type="clothes">pant and shirt</li> 
+		<li onclick="showDetails(this)" id="hp" data-shoppingList-type="laptop">hp</li>
     </ol>
 	<ul>
-		<li data-holidayList-type="place">goa</li>
-        <li data-holidayList-type="place">manali</li>
-        <li data-holidayList-type="place">agra</li>
-    </ul>
+		<li onclick="showDetails(this)" id="goa" data-shoppingList-type="place">goa</li>
+        <li onclick="showDetails(this)" id="manali" data-shoppingList-type="place">manali</li>
+        <li onclick="showDetails(this)" id="agra" data-shoppingList-type="place">agra</li>
+	</ul>
 </body>
 
 </html>
